@@ -23,5 +23,5 @@ MVVM来自[微软](https://msdn.microsoft.com/en-us/library/hh848246.aspx)，是
 
 ### MVVMDemo的效果预览
 
-![](https://github.com/zhang382847657/MVVM-Reactive-Cocoa/raw/master/tableview_demo.png)
+![](https://github.com/zhang382847657/MVVM-Reactive-Cocoa/raw/master/tableview_demo.png/!50p)
 
