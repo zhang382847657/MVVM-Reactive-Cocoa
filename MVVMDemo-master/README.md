@@ -19,7 +19,11 @@ MVVM来自[微软](https://msdn.microsoft.com/en-us/library/hh848246.aspx)，是
 
 **TableViewProtocol**:  为了避免ViewController太重，我把TableView的DataSource和Delegate分离出来
 
-### MVVMDemo的效果预览
+### MVVM下TabelView的效果预览
 
 ![img-w375](https://github.com/zhang382847657/MVVM-Reactive-Cocoa/raw/master/tableview_demo.png)
+
+### MVVM+ReactiveCoca下登录界面的效果预览
+
+![img-w375](https://github.com/zhang382847657/MVVM-Reactive-Cocoa/raw/master/login_demo.png)
 
