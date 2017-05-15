@@ -9,8 +9,6 @@ MVVM来自[微软](https://msdn.microsoft.com/en-us/library/hh848246.aspx)，是
 
 ### MVVMDemo的架构
 
-![](http://github.com/zhanglin382847657/MVVM-Reactive-Cocoa/edit/master/MVVMDemo-master/github_mvvmdemo1.png?imageMogr2/thumbnail/!50p)
-
 **Model**:  数据的模型
 
 **View**:  其实包括View和ViewController两部分，统称为View
