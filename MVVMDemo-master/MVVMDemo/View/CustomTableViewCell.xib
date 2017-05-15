@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shop" translatesAutoresizingMaskIntoConstraints="NO" id="bAv-il-Q4t">
+                    <rect key="frame" x="16" y="16" width="71" height="71"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bAv-il-Q4t" secondAttribute="height" multiplier="1:1" id="AyA-Kp-hyO"/>
+                        <constraint firstAttribute="height" constant="71" id="hmS-o0-Tbc"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全球领先的家庭服务提供商" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnT-vT-NJn">
+                    <rect key="frame" x="103" y="44" width="256" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="kYs-8g-mcg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyJ-Sr-z5i">
+                    <rect key="frame" x="103" y="71" width="178" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="I69-5r-UYX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="025-555555" image="call">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xif-YE-MEJ">
+                    <rect key="frame" x="289" y="66" width="70" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="6vf-w4-gq3"/>
+                        <constraint firstAttribute="height" constant="21" id="UVV-WQ-82u"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="进店逛逛"/>
+                    <connections>
+                        <action selector="enterBtnPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="8Ur-QJ-ARZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0j-la-770">
+                    <rect key="frame" x="176.5" y="16" width="182.5" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="ICm-q0-joj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="0.03km" image="position">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斑马快跑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKV-yZ-NnD">
+                    <rect key="frame" x="103" y="16" width="65.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="r2R-Sq-RGZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MyJ-Sr-z5i" secondAttribute="bottom" constant="16" id="6yS-Ms-tap"/>
+                <constraint firstAttribute="bottom" secondItem="bAv-il-Q4t" secondAttribute="bottom" constant="16" id="Jzn-5R-Svu"/>
+                <constraint firstAttribute="trailing" secondItem="x0j-la-770" secondAttribute="trailing" constant="16" id="L6O-AK-hTj"/>
+                <constraint firstItem="jnT-vT-NJn" firstAttribute="leading" secondItem="bAv-il-Q4t" secondAttribute="trailing" constant="16" id="MBa-VE-NLl"/>
+                <constraint firstAttribute="trailing" secondItem="Xif-YE-MEJ" secondAttribute="trailing" constant="16" id="MLe-ow-MHD"/>
+                <constraint firstItem="Xif-YE-MEJ" firstAttribute="leading" secondItem="MyJ-Sr-z5i" secondAttribute="trailing" constant="8" id="Ru0-AL-qC9"/>
+                <constraint firstItem="OKV-yZ-NnD" firstAttribute="leading" secondItem="bAv-il-Q4t" secondAttribute="trailing" constant="16" id="Vfz-aB-Gyz"/>
+                <constraint firstItem="OKV-yZ-NnD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="bfN-e4-L0R"/>
+                <constraint firstItem="MyJ-Sr-z5i" firstAttribute="leading" secondItem="bAv-il-Q4t" secondAttribute="trailing" constant="16" id="c5Z-x2-Nyd"/>
+                <constraint firstItem="Xif-YE-MEJ" firstAttribute="top" secondItem="jnT-vT-NJn" secondAttribute="bottom" constant="8" id="gMK-du-PFm"/>
+                <constraint firstItem="bAv-il-Q4t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="kmA-Cv-ADK"/>
+                <constraint firstItem="MyJ-Sr-z5i" firstAttribute="leading" secondItem="bAv-il-Q4t" secondAttribute="trailing" constant="16" id="px7-hB-Tte"/>
+                <constraint firstItem="x0j-la-770" firstAttribute="leading" secondItem="OKV-yZ-NnD" secondAttribute="trailing" constant="8" id="qH4-89-E24"/>
+                <constraint firstItem="x0j-la-770" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="swl-bx-7nY"/>
+                <constraint firstItem="bAv-il-Q4t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="tEC-0X-TSL"/>
+                <constraint firstAttribute="bottom" secondItem="Xif-YE-MEJ" secondAttribute="bottom" constant="16" id="tpb-Ma-1AO"/>
+                <constraint firstItem="jnT-vT-NJn" firstAttribute="top" secondItem="x0j-la-770" secondAttribute="bottom" constant="6" id="yqi-Fy-9ea"/>
+                <constraint firstAttribute="trailing" secondItem="jnT-vT-NJn" secondAttribute="trailing" constant="16" id="zbT-AQ-13L"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="distance" destination="x0j-la-770" id="jNH-fE-WiP"/>
+                <outlet property="enterBtn" destination="Xif-YE-MEJ" id="VWm-KZ-7Vx"/>
+                <outlet property="image" destination="bAv-il-Q4t" id="slK-it-Mki"/>
+                <outlet property="phoneBtn" destination="MyJ-Sr-z5i" id="fxc-mS-E7D"/>
+                <outlet property="shopName" destination="OKV-yZ-NnD" id="M5I-C2-J4x"/>
+                <outlet property="shopSolgan" destination="jnT-vT-NJn" id="SGZ-6J-RWR"/>
+            </connections>
+            <point key="canvasLocation" x="29.5" y="-104.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="call" width="9" height="13"/>
+        <image name="position" width="9" height="12"/>
+        <image name="shop" width="60" height="60"/>
+    </resources>
+</document>
